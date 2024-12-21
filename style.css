@@ -130,6 +130,7 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 14px rgba(85, 85, 85, 0.329);
+  padding: 1rem 0;
 }
 
 
@@ -151,6 +152,9 @@ body {
 
 }
 
+.main-form p {
+  font-size: 1.4rem;
+}
 .form-row {
   display: flex;
   flex-direction: row;
@@ -166,4 +170,19 @@ body {
   flex: 1;
   /* margin-top: 6rem; */
   padding: 2rem 4rem;
+}
+
+
+/* INPUTS */
+
+.form-item label {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  color: rgb(39, 39, 39);
+}
+
+.form-item input {
+  border: 1px solid rgb(170, 167, 167);
+  border-radius: 4px;
+  font-size: 1.2rem;
 }
