@@ -40,9 +40,64 @@ h1, h2, h3, h4, h5, h6 {
 /* CSS RESET */
 
 
+/* BLOCKS */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.design-container {
+  flex: 1;
+}
+
+.main-container {
+  flex: 2;
+}
 
 
+/* MAIN */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container > *{
+  padding: 4rem;
+}
+
+.main.header-container {
+  margin-top: 6rem;
+}
+
+.main.form-container {
+  flex: 1;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 6rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer-form {
+  margin-top: 4rem;
+}
 
 
-
-
+.main-form {
+  height: 15rem;
+}
