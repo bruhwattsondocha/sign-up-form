@@ -186,3 +186,11 @@ body {
   border-radius: 4px;
   font-size: 1.2rem;
 }
+
+.form-item input:user-valid {
+  border-color: rgb(0, 228, 0);
+}
+
+.form-item input:user-invalid {
+  border-color: red;
+}
